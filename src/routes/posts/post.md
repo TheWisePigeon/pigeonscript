@@ -9,3 +9,11 @@ date: 2020/01/02
 
 - bruh
 - bruruh
+
+```js
+console.log('bruh')
+let x = bruh
+if (x) {
+  console.log('bruh')
+}
+```

@@ -7,4 +7,4 @@
 
 <p>Published the {date} </p>
 
-<slot/>
+<slot class=" prose"/>

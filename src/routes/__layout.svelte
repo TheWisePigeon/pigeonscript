@@ -4,7 +4,7 @@
 
 <Header/>
 
-<div class=" bg-red-500">
+<div class=" bg-green-700 text-white prose">
     <slot></slot>
 </div>
 
