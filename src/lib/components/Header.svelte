@@ -9,7 +9,7 @@
 <template>
     <div class=" flex items-center justify-between m-2">
         <p class=" font-extrabold text-2xl dark:text-violet-700">
-            Welcome to my blog!!
+            <a href="/">Welcome to my blog!!</a>
         </p>
         <!-- onClick -->
         <div class=" flex justify-between space-x-5">
