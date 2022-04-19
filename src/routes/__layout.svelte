@@ -4,9 +4,7 @@
 </script>
 
 <Header/>
-
-<div class=" dark:bg-gray-700 dark:text-white   prose prose-a:text-red-400 prose-p:text-center">
-    <slot></slot>
-</div>
-
+<main class=" w-screen h-screen flex  justify-center">
+<slot></slot>
+</main>
 <Footer/>

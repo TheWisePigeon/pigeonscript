@@ -1,10 +1,17 @@
 <script>
-    export let title
-    export let date
+    export let title;
+    export let date;
+    import "../../app.css";
 </script>
 
-<h1>{title}</h1>
+<template>
+    <div class=" p-2 dark:text-white">
+        <h1>{title}</h1>
 
-<p>Published the {date} </p>
+        <p>Published the {date}</p>
 
-<slot class=" prose"/>
+        <div class=" prose ">
+            <slot />
+        </div>
+    </div>
+</template>
