@@ -1,19 +1,22 @@
 <script>
     import "../../app.css";
 
+    export const age = new Date().getFullYear() - 2002
+    export const status = "junior";
+
     function change() {
         console.log("I got clicked");
     }
 </script>
 
 <template>
-    <div class=" flex items-center justify-between m-2">
-        <p class=" font-extrabold text-2xl dark:text-violet-700">
-            <a href="/">Welcome to my blog!!</a>
+    <div class=" flex items-center justify-between p-2 dark:text-white dark:bg-gray-700">
+        <p class=" font-extrabold text-2xl ">
+            <a href="/">Tech Pigeon</a>
         </p>
         <!-- onClick -->
         <div class=" flex justify-between space-x-5">
-            <div on:click={change}>
+            <button on:click={change}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6 hidden"
@@ -40,8 +43,8 @@
                         clip-rule="evenodd"
                     />
                 </svg>
-            </div>
-            <div>
+            </button>
+            <button>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6"
@@ -56,7 +59,7 @@
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                 </svg>
-            </div>
+            </button>
         </div>
     </div>
 </template>

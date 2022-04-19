@@ -5,7 +5,7 @@
 
 <Header/>
 
-<div class=" bg-green-700 text-white prose">
+<div class=" dark:bg-gray-700 dark:text-white   prose prose-a:text-red-400 prose-p:text-center">
     <slot></slot>
 </div>
 
