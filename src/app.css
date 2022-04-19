@@ -1,3 +1,4 @@
+@import url('./prism-atom-dark.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
