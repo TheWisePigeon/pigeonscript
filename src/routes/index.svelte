@@ -10,7 +10,6 @@
     };
   };
 
-  export const age = new Date().getFullYear() - 2002;
   export const status = "junior";
 </script>
 
@@ -19,26 +18,25 @@
 </script>
 
 <svelte:head>
-  <title>Tech Pigeon</title>
+  <title>Tech Pigeon </title>
 </svelte:head>
 
 <template>
-  <div class=" dark:bg-gray-700 dark:text-white   prose prose-a:text-red-400 prose-p:text-center  h-screen relative">
-    <p>
-      Hi, I'm <a href="https://github.com/TheWisePigeon">TheWisePigeon</a>, {age}
-      years old {status} developer. Here I'll be sharing some knowledge, using code
-      and memes, so if(you like coding && memes)&lbrace;subscribe to my mews letter&rbrace;
+  <div class=" dark:bg-gray-700 dark:text-white   prose prose-a:text-red-400 prose-p:text-white">
+    <p class=" text-center">
+      Hi, I'm <a href="https://github.com/TheWisePigeon">Freeman</a>. Because every developer should have a blog, here is mine. Hope you will learn something useful here
     </p>
     <ul>
       {#each posts as post}
-        <li>
+        <div>
           <h2>
             <a href={post.path}>
               {post.meta.title}
             </a>
+            <p class="text-sm" >{post.meta.description}</p>
+            <p class=" text-sm">Published on {post.meta.date}</p>
           </h2>
-          Published {post.meta.date}
-        </li>
+        </div>
       {/each}
     </ul>
   </div>

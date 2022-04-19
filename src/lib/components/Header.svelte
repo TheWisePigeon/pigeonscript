@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <div class=" flex items-center justify-between p-2 dark:text-white dark:bg-gray-700">
+    <div class=" flex items-center justify-around p-4 dark:text-white dark:bg-gray-700">
         <p class=" font-extrabold text-2xl ">
             <a href="/">Tech Pigeon</a>
         </p>
@@ -62,4 +62,5 @@
             </button>
         </div>
     </div>
+    <hr>
 </template>

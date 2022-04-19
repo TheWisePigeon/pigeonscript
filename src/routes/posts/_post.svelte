@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class=" w-96 p-2 dark:text-white">
+    <div class=" lg:w-1/2  p-2 dark:text-white">
         <h1>{title}</h1>
 
         <p>Published the {date}</p>
