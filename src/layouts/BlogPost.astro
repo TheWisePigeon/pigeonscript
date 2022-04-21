@@ -5,13 +5,13 @@ import BlogPost from '../components/BlogPost.astro';
 
 
 const { content } = Astro.props;
-const { title, description, publishDate, heroImage, permalink, alt } = content;
+const { title, description, publishDate, heroImage, alt } = content;
 ---
 
 <html lang={content.lang || 'en'}>
 	<head>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-lucario.css"/>
-		<BaseHead {title} {description} {permalink} image={heroImage}  />
+		<BaseHead {title} {description} image={heroImage}  />
 	</head>
 
 	<body>

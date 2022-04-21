@@ -4,16 +4,16 @@ import '../styles/blog.css';
 export interface Props {
 	title: string;
 	description: string;
-	permalink: string;
 	image: string;
 }
-const { title, description, permalink, image } = Astro.props;
+const { title, description, image } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
@@ -22,17 +22,14 @@ const { title, description, permalink, image } = Astro.props;
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={image} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={permalink} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content="https://astro.build/social.jpg?v=1" />
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com" />

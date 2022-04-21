@@ -4,8 +4,7 @@ import BlogHeader from '../components/BlogHeader.astro';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
 let title = 'PigeonScript';
 let description = 'Yet another blog about programming';
-let permalink = 'https://example.com/';
-
+let image = 'https://picsum.photos/200'
 
 let allPosts = await Astro.glob('./posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
@@ -14,7 +13,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 
 <html lang="en">
 	<head>
-		<BaseHead {title} {description} {permalink} />
+		<BaseHead {title} {description} {image} />
 
 		<style>
 			header {
