@@ -2,8 +2,8 @@
 import BaseHead from '../components/BaseHead.astro';
 import BlogHeader from '../components/BlogHeader.astro';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
-let title = 'The Astrology Blog';
-let description = 'The perfect starter for your perfect blog.';
+let title = 'PigeonScript';
+let description = 'Yet another blog about programming';
 let permalink = 'https://example.com/';
 
 
@@ -57,8 +57,8 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 		<div class="wrapper">
 			<main class="content">
 				<section class="intro">
-					<h1 class="latest">{title}</h1>
-					<p>{description}</p>
+					Hi, I'm <a href="https://github.com/TheWisePigeon">Joseph</a> and this is yet another blog about programming. <br>
+					I hope you will learn something useul here :)
 				</section>
 				<section aria-label="Blog post list">
 					{allPosts.map((p) => <BlogPostPreview post={p} />)}

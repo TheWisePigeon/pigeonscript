@@ -56,7 +56,7 @@ body {
 	color: var(--theme-text);
 }
 
-:root.theme-dark {
+:root {
 	color-scheme: dark;
 	--theme-accent-opacity: 0.3;
 	--theme-divider: var(--color-gray-900);
@@ -83,6 +83,7 @@ body {
 :root {
 	--user-font-scale: 1rem - 16px;
 	--max-width: calc(100% - 2rem);
+	
 }
 
 @media (min-width: 50em) {
