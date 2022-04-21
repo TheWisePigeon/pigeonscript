@@ -1,9 +1,10 @@
 ---
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
-title: What is a blog post?
+title: Every programer should blog
 publishDate: 19 Sep 2021
-description: Just a  Post!
+description: Yep, every programer should blog
+heroImage: https://picsum.photos/200
 ---
 
 
