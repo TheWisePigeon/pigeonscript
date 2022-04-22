@@ -246,9 +246,10 @@ pre {
 }
 
 img.cover {
-	width: 100%;
+	width: 50%;
 	max-height: 50vh;
 	object-fit: cover;
+
 }
 
 blockquote {
@@ -273,4 +274,9 @@ blockquote .source {
 	font-weight: 500;
 	color: var(--color);
 	font-size: 1rem;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
 }

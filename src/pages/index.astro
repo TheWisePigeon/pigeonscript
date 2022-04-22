@@ -57,7 +57,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 			<main class="content">
 				<section class="intro">
 					Hi, I'm Joseph a.k.a <a href="https://github.com/TheWisePigeon">TheWisePigeon</a> and this is yet another blog about programming. <br>
-					I hope you will learn something useful here :) 
+					I hope you will learn something useful here :) Click <a href="/subscribe">here</a> to subscribe to my newsletter. 
 				</section>
 				<section aria-label="Blog post list">
 					{allPosts.map((p) => <BlogPostPreview post={p} />)}
