@@ -46,4 +46,5 @@ See you next week! Enjoy this photo of a potato 🥔 and read more posts below
 ![](../../../assets/potatomeme.jpg)
 
 Latest posts:
-- [Welcome to PigeonScript](/posts/)
+- [Nodejs fetch is here](/posts/node-fetch-is-here)
+- [Welcome to PigeonScript](/posts/welcome-to-pigeonscript)
