@@ -4,7 +4,7 @@ setup: |
 title: Nodejs for potatoes#1
 description: A step to step guide to get started with Nodejs
 publishDate: 22 Apr 2022
-heroImage: https://nodejs.org/static/images/logos/nodejs-new-pantone-white.svg
+heroImage: /assets/node.jpg
 ---
 If you found this post because you decided to learn more about Nodejs, you made a good choice. This post is the first of a series about Nodejs, and in this one, we will just be talking about **what is Nodejs**.
 
@@ -15,7 +15,7 @@ Nodejs is a **JavaScript runtime** built on Chrome's V8 **JavaScript engine**. M
 
 Well in simple words, a runtime is a sub-system that exists both in the computer where a program is created, as well as in the computer where the program is intended to be run. And Chrome's V8 is the "thing" built in Google's Chrome and many other [browsers](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)#:~:text=V8%20is%20used%20in%20the,Opera%2C%20Vivaldi%20and%20Microsoft%20Edge.), that converts javascript code into machine code. Javascript is a client-side language, it means that it is interpreted and executed only by the browser whereas other languages such as Python and Ruby are server-side languages and executed by the server. Nodejs runs the v8 engine, **outside of the browser** allowing your javascript code to run on both client and server side.
 
-This is great because it means that you don't have to learn a server-side language if you already know javascript, you can use the new ECMAScript standards without worrying about your users browser, you decide which ECMAScript version you want to use according to the Nodejs version. In addition, Nodejs has a lot of libraries that you can use to make pretty much anything you will need to do as a web developer, there are over 1.000.000 open sources packages you can freely use and evcen if you don't find what you need, you can always create your own.
+This is great because it means that you don't have to learn a server-side language if you already know javascript, you can use the new ECMAScript standards without worrying about your users browser, you decide which ECMAScript version you want to use according to the Nodejs version. In addition, Nodejs has a lot of libraries that you can use to make pretty much anything you will need to do as a web developer, there are over 1.000.000 open sources packages you can freely use and even if you don't find what you need, you can always create your own.
 
 ## How much javascript knowledge do I need to learn Nodejs?
 Well not **that much**, but you will need to know the main concepts about javascript which are:
