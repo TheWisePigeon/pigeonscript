@@ -4,7 +4,7 @@ setup: |
 title: PyScript 🥧📜
 description: Le pouvoir de Python maintenant dans votre navigateur
 publishDate: 03 Mai 2022
-heroImage: /assets/pieScript.jpg
+heroImage: /assets/piescript.jpg
 ---
 
 Oui, j'écris sur python, et oui c'est tout à fait normal, ce blog parle de codage et pas seulement de JavaScript (mon langage préféré). Cela étant dit, passons directement au sujet d'aujourd'hui : **PyScript**.

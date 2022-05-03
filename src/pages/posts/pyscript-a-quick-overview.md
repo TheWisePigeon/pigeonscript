@@ -4,7 +4,7 @@ setup: |
 title: PyScript 🥧📜
 description: The power of python now in the browser
 publishDate: 03 May 2022
-heroImage: /assets/pieScript.jpg
+heroImage: /assets/piescript.jpg
 ---
 This post is available in French [here](/postsfr/pyscript-une-vue-d-ensemble)
 
