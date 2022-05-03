@@ -7,6 +7,8 @@ description: A quick overview of the fetch api
 heroImage: /assets/nodefetch.jpg
 ---
 
+This post is available in French [here](/postsfr/node-fetch-is-here)
+
 I know I'm late to the party, I was so busy I didn't even realize NodeJs 18 was out yet. I was part of those who were waiting for the fetch api to be implemented in node for a long time, and I was so excited when it finally came out that I had to write this post. It's a quick overview of the fetch api, and I hope you will find it useful. 
 
 ## What is fetch?
