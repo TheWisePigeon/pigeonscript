@@ -43,5 +43,6 @@ J'espère que vous avez appris quelque chose de cet article, si vous l'avez fait
 À la semaine prochaine! Profitez de cette photo d'une pomme de terre 🥔 et lisez plus d'articles ci-dessous
 ![](../../../assets/potatomeme.jpg)
 
-Posts récents:
-- [Welcome to PigeonScript](/posts/)
+[Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [Pyscript🥧📜](/postsfr/pyscript-une-vue-d-ensemble)
+- [Node Fetch est là](/postsfr/node-fetch-is-here)

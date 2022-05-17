@@ -48,6 +48,8 @@ This being a quick overview I will wrap thing here, but I will make a full tutor
 This is great news for everyone, even for Javascript developers, no, pyscript will not replace Javascript, why? Python does not have a straight forward way to build elegant UIs, package and deploy applications, Javascript does but is not as easy to learn as python. Pyscript developers hope that people will use python powerfull tools along with Javascript ones to build awesome stuff, so don't worry, Javascript is here to stay.
 That's it, I hope you learn something new in this post, subscribe to my [newsletter](/subscribe) and I will see you in the next one. Stay safe and write code
 
-Read more articles:
-- [Node fetch is here](/posts/node-fetch-is-here)
-- [Nodejs for potatoes#1](/posts/nodejs-for-potatoes) 
+Latest posts:
+- [Map-Filter-Reduce](/posts/map-filter-reduce)
+- [Nodejs fetch is here](/posts/node-fetch-is-here)
+- [Nodejs for potatoes](/posts/nodejs-for-potatoes)
+- [Welcome to PigeonScript](/posts/welcome-to-pigeonscript)

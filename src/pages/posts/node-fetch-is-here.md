@@ -67,4 +67,8 @@ id: 101
 Obviously when compared to how requests are made using other packages, the fetch api is much more simple and easy to use. It's still in experimental mode and the developers said it will provide a more powerful, flexible feature set in the future. That's it, I hope you found this post useful and I will see you in the next one.
 
 [Subscribe](/subscribe) to my newsletter and read more posts below:
-- [Nodejs for potatoes#1](/posts/nodejs-for-potatoes)  
+Latest posts:
+- [Map-Filter-Reduce](/posts/map-filter-reduce)
+- [PyScript](/posts/pyscript-a-quick-overview)
+- [Nodejs for potatoes](/posts/nodejs-for-potatoes)
+- [Welcome to PigeonScript](/posts/welcome-to-pigeonscript)
