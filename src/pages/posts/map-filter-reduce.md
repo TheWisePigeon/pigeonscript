@@ -2,11 +2,11 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 title: Map-Filter-Reduce
-description: Javascript Array methods explained
-publishDate: 17 May 2022
+description: Méthodes de tableaux Javascript
+publishDate: 17 Mai 2022
 heroImage: /assets/map.jpg
 ---
-*This post is not yet available in french*
+This post is available in french [here](/postsfr/map-filter-reduce)
 
 
 Hi folks, in today's post I will be talking about some Javascript Array methods. So without further a do, let's get started.
