@@ -51,3 +51,65 @@ const positifs = nombres.filter(
 console.log(positifs)
 //console: [1, 2]
 ```
+
+# Reduce
+La méthode reduce() contrairement à ses amis, renvoie une seule valeur. Il exécute un **réducteur** sur chaque élément du tableau et affiche le résultat final. Confus? laissez-moi vous expliquer avec du code:
+
+```js
+const nombres = [1, 2, 3]
+//avec fonction fléchée 
+const somme = nombres.reduce(
+    function (result, number) {
+        return result + item
+    },
+    0
+)
+//sans fonction fléchée 
+const nombres = [1, 2, 3]
+const somme = nombres.reduce(
+    (result, number)=> result + number,
+    0
+)
+console.log(somme) // 6
+```
+Vous êtes probablement plus confus qu'avant, mais je vous tiens. Que se passe-t-il là-bas? Nous additionnons les nombres dans les tableaux : 1+2+3 = 6. Mais qu'en est-il ? eh bien nous passons à la méthode reduce un **callback** et une valeur initiale.
+- La valeur initiale
+
+C'est la valeur initiale de l'**accumulateur** et est facultative
+
+- Le **callback**
+
+Il prend deux paramètres : l'**accumulateur** qui est le résultat final de chaque opération effectuée sur chaque élément du tableau. Ici on veut additionner tous les nombres , à la première itération l'accumulateur sera égal à 0 car on l'a initialisé comme ça
+
+```js
+const somme = nombres.reduce(
+    function (result, number) {
+        return result + item
+    },
+    0 //ici nous disons que l'accumulateur (result dans ce cas) sera initialisé à 0
+)
+```
+La fonction reduce ajoutera ensuite chaque nombre du tableau au nombre suivant :
+```c
+Première iteration:
+0 + 1 //0 comme valeur initiale de l'accumulateur et 1 comme premier élément du tableau
+Seconde iteration:
+(0 + 1) + 2 //Le résultat de l'opération précédente devient l'accumulateur et est ajouté au nombre suivant dans le tableau
+Troisième iteration:
+((0 + 1) + 2) + 3 
+```
+La valeur initiale de l'accumulateur est 0 par défaut, nous n'avons donc pas besoin de le spécifier au cas où nous n'aurions pas de valeur initiale avec laquelle travailler
+```js
+const nombres = [1, 2, 3]
+const somme = nombres.reduce(
+    (result, number)=> result + number,
+    10 //ici nous mettons l'accumulateur à 10, donc la première itération sera 10 + 1
+)
+console.log(somme) // 16
+```
+
+C'est ça. Je créerai très bientôt un répertoire présentant des exemples plus avancés sur mon github, [Abonnez vous](/subscribe) pour être mis à jour lors de sa sortie. J'espère que vous avez appris quelque chose de nouveau ou même si vous saviez déjà ce que j'ai couvert dans ce post, j'espère que je ne vous ai pas fait perdre votre temps 🙂 et je vous verrai dans le prochain.
+
+[Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [Pyscript🥧📜](/postsfr/pyscript-une-vue-d-ensemble)
+- [Nodejs pour les patates#1](/postsfr/nodejs-for-potatoes)
