@@ -44,5 +44,6 @@ J'espère que vous avez appris quelque chose de cet article, si vous l'avez fait
 ![](../../../assets/potatomeme.jpg)
 
 [Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [Map Filter et Reduce](/postsfr/map-filter-reduce)
 - [Pyscript🥧📜](/postsfr/pyscript-une-vue-d-ensemble)
 - [Node Fetch est là](/postsfr/node-fetch-is-here)

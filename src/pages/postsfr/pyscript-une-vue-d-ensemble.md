@@ -49,5 +49,6 @@ C'est une excellente nouvelle pour tout le monde, même pour les développeurs J
 Voilà, j'espère que vous apprendrez quelque chose de nouveau dans ce post, abonnez-vous à ma [newsletter](/subscribe) et je vous verrai dans le prochain. Restez en sécurité et écrivez du code
 
 [Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [Map Filter et Reduce](/postsfr/map-filter-reduce)
 - [Node Fetch est là](/postsfr/node-fetch-is-here)
 - [Nodejs pour les patates#1](/postsfr/nodejs-for-potatoes)
