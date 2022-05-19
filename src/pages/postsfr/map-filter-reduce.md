@@ -33,3 +33,21 @@ const doubles = nombres.map(
 console.log(doubles) // [2, 4, 6]
 ```
 Nous passons à la méthode map un **callback** qui prend comme arguments chaque élément du tableau et renvoie le résultat d'une opération spécifique effectuée dans cet élément. Si vous ne comprenez pas le concept des rappels, ne vous inquiétez pas, j'en parlerai également dans les prochains articles.
+
+# Filter
+La méthode filter() est assez intuitive car son nom explique assez bien ce qu'elle fait. Fondamentalement, c'est un filtre, il applique une instruction conditionnelle à chaque élément du tableau initial et ne renvoie que les éléments qui vérifient cette condition. Voici un exemple pour vous
+```js
+const nombres = [-1, -1, 1, 2]
+//sans fonction fléchée
+const positifs = nombres.filter(
+    function(nombre){
+        return nombre > 0 //ne retournera que les nombres positifs
+    }
+)
+//avec fonction fléchée 
+const positifs = nombres.filter(
+    nombre => nombre > 0
+)
+console.log(positifs)
+//console: [1, 2]
+```
