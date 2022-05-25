@@ -14,7 +14,7 @@ const { title,  publishDate, heroImage, alt } = Astro.props;
 	<article class="content">
 		<div>
 			<header>
-				
+				{heroImage && <img width="100" height="250" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
 				<p class="publish-date">{publishDate}</p>
 				<h1 class="title">{title}</h1>
 			</header>
