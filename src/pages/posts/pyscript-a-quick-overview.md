@@ -49,6 +49,7 @@ This is great news for everyone, even for Javascript developers, no, pyscript wi
 That's it, I hope you learn something new in this post, subscribe to my [newsletter](/subscribe) and I will see you in the next one. Stay safe and write code
 
 Latest posts:
+- [React is not a framework](/posts/react-is-not-a-framework)
 - [Map-Filter-Reduce](/posts/map-filter-reduce)
 - [Nodejs fetch is here](/posts/node-fetch-is-here)
 - [Nodejs for potatoes](/posts/nodejs-for-potatoes)

@@ -111,5 +111,7 @@ console.log(somme) // 16
 C'est ça. Je créerai très bientôt un répertoire présentant des exemples plus avancés sur mon github, [Abonnez vous](/subscribe) pour être mis à jour lors de sa sortie. J'espère que vous avez appris quelque chose de nouveau ou même si vous saviez déjà ce que j'ai couvert dans ce post, j'espère que je ne vous ai pas fait perdre votre temps 🙂 et je vous verrai dans le prochain.
 
 [Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [React n'est pas un framework](/postsfr/react-n-est-pas-un-framework)
 - [Pyscript🥧📜](/postsfr/pyscript-une-vue-d-ensemble)
+- [Node Fetch est là](/postsfr/node-fetch-is-here)
 - [Nodejs pour les patates#1](/postsfr/nodejs-for-potatoes)

@@ -2,8 +2,8 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 title: Map-Filter-Reduce
-description: Méthodes de tableaux Javascript
-publishDate: 17 Mai 2022
+description: Javascript Array methods explained
+publishDate: 17 May 2022
 heroImage: /assets/map.jpg
 ---
 This post is available in french [here](/postsfr/map-filter-reduce)
@@ -109,6 +109,7 @@ console.log(sum) // 16
 That's it. I will create a repo showcasing more advanced examples on my github very soon, [Subscribe](/subscribe) to get updated when it releases. I hope you learnt something new or even if you already knew about what I covered in this post, I hope I didn't waste your time 🙂 and I will see you in the next one.
 
 Latest posts:
+- [React is not a framework](/posts/react-is-not-a-framework)
 - [PyScript](/posts/pyscript-a-quick-overview)
 - [Nodejs fetch is here](/posts/node-fetch-is-here)
 - [Nodejs for potatoes](/posts/nodejs-for-potatoes)

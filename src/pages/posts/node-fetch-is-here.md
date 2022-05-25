@@ -68,6 +68,7 @@ Obviously when compared to how requests are made using other packages, the fetch
 
 [Subscribe](/subscribe) to my newsletter and read more posts below:
 Latest posts:
+- [React is not a framework](/posts/react-is-not-a-framework)
 - [Map-Filter-Reduce](/posts/map-filter-reduce)
 - [PyScript](/posts/pyscript-a-quick-overview)
 - [Nodejs for potatoes](/posts/nodejs-for-potatoes)

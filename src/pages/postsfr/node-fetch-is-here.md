@@ -56,6 +56,7 @@ Nous obtenons cette réponse dans la console
 De toute évidence, par rapport à la façon dont les requêtes sont effectuées à l'aide d'autres packages, l'API fetch est beaucoup plus simple et facile à utiliser. Il est toujours en mode expérimental et les développeurs ont déclaré qu'il fournirait un ensemble de fonctionnalités plus puissantes et flexibles à l'avenir. Voilà, j'espère que vous avez trouvé cet article utile et je vous verrai dans le prochain.
 
 [Abonnez-vous](/subscribe) à ma newsletter et lisez plus d'articles ci-dessous :
+- [React n'est pas un framework](/postsfr/react-n-est-pas-un-framework)
 - [Map Filter et Reduce](/postsfr/map-filter-reduce)
 - [Pyscript🥧📜](/postsfr/pyscript-une-vue-d-ensemble)
 - [Nodejs pour les patates#1](/postsfr/nodejs-for-potatoes)
